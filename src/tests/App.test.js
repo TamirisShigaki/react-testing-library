@@ -58,7 +58,7 @@ describe('Testa se o topo da aplicação contém um conjunto fixo de links de na
       () => {
         const { history } = renderWithRouter(<App />);
 
-        history.push('/xablau');
+        history.push('/notFound');
 
         const notFoundTitle = screen.getByRole('heading',
           { name: /Page requested not found/i });
