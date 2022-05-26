@@ -54,7 +54,7 @@ os testes do componente `FavoritePokemons` contem as validações para a pagina 
 
 ### Verifica se caso não tenha nenhum Pokémon favorito a mensagem correta é renderizada.
 
-![img](/src/image/Favotite-imagem.png)
+![img](/src/image/Favorite-imagem.png)
 
 ### Verifica se a pagina contem os Pokémons que foram favoritados.
 
