@@ -3,7 +3,7 @@
 # Contexto
 Esse projeto foi feito como validação do bloco de `Testes automatizados com React Testing Library` no modulo de `Front-End` da Trybe.
 
-Nos foi dado uma aplicação pronta onde devíamos implementar os testes para validar a experiência do usuário ao utilizar a aplicação.
+Foi-nos dado uma aplicação pronta onde devíamos implementar os testes para validar a experiência do usuário ao utilizar a aplicação.
 
 Os testes implementados cobrem mais de 90% da aplicação, abaixo alguns dos componentes que foram testados.
 
@@ -14,7 +14,7 @@ Todos os testes se encontram na pasta `tests` que se localizam dentro da pasta `
 ```
 
 ## APP (Home)
-Os testes do componente `APP (Home)` contém as validações para o menu de navegação, testando se contém um grupo de links específicos e se funcionam de acordo com o que foi proposto.
+Os testes do componente `APP (Home)` contém as validações para o menu de navegação, testando se contém um grupo de links específicos e se funcionam conforme o que foi proposto.
 
 ### Verifica a funcionalidade do link `"Home"`.
 
@@ -34,7 +34,7 @@ Os testes do componente `APP (Home)` contém as validações para o menu de nave
 
 
 ## About
-Os testes do componente `About` contem as validações para a pagina `About`, verificando se a pagina contem todos os elementos necessários.
+Os testes do componente `About` contem as validações para a página `About`, verificando se a pagina contem todos os elementos necessários.
 
 ### Verifica se a pagina contem um titulo especifico.
 
@@ -50,13 +50,13 @@ Os testes do componente `About` contem as validações para a pagina `About`, ve
 
 
 ## Pokémons Favoritos
-os testes do componente `FavoritePokemons` contem as validações para a pagina `Pokémons Favoritos`, verificando se a pagina renderiza os Pokémons que foram favoritados.
+Os testes do componente `FavoritePokemons` contem as validações para a página `Pokémons Favoritos`, verificando se a pagina renderiza os Pokémons que foram favoritados.
 
 ### Verifica se caso não tenha nenhum Pokémon favorito a mensagem correta é renderizada.
 
 ![img](/src/image/Favorite-imagem.png)
 
-### Verifica se a pagina contem os Pokémons que foram favoritados.
+### Verifica se a página contém os Pokémons que foram favoritados.
 
 ![img](/src/image/Favorite-pokemon.png)
 
@@ -86,7 +86,7 @@ npm test
 
 ou 
 
-Caso queira executar apenas um componente de teste basta passar o caminho do componente apos o comando `npm test`, no exemplo abaixo executamos apenas o componente `About`:
+Caso queira executar apenas um componente de teste basta passar o caminho do componente após o comando `npm test`, no exemplo abaixo executamos apenas o componente `About`:
 
 ```bash
 npm test tests/About.test.js
